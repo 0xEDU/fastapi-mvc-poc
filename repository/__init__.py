@@ -1,1 +1,1 @@
-from .item_repository import create_item
+from .items_repository import create_item

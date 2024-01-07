@@ -1,9 +1,9 @@
 from fastapi import FastAPI
-from controllers import item_controller
+from controllers import items_controller
 
 
 app = FastAPI()
-app.include_router(item_controller.router)
+app.include_router(items_controller.router)
 
 
 @app.get("/")

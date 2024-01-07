@@ -8,7 +8,7 @@ router = APIRouter(
 )
 
 
-@router.post("/")
+@router.post("")
 async def create_item_endpoint(item: Item):
     create_item(item)
     return {'message': 'Item created successfully!'}
