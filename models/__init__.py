@@ -1,1 +1,1 @@
-from items_model import Item
+from .items_model import Item
