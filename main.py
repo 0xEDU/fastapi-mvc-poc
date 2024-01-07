@@ -5,7 +5,7 @@ from controllers import item_controller
 load_dotenv()
 
 app = FastAPI()
-app.include_router(item_controller)
+app.include_router(item_controller.router)
 
 
 @app.get("/")
